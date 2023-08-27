@@ -1,8 +1,10 @@
 package org.example.app;
 
+import org.example.lib.Library;
+
 public class App {
     public String getGreeting() {
-        return "Hello World!";
+        return new Library().helloFromAnotherRepo("App");
     }
 
     public static void main(String[] args) {

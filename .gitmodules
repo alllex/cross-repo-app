@@ -1,0 +1,3 @@
+[submodule "cross-repo-lib"]
+	path = cross-repo-lib
+	url = https://github.com/alllex/cross-repo-lib
